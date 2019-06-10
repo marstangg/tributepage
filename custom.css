@@ -1,0 +1,75 @@
+article  {background-color:#ffefe2;}
+
+.firstarticle { font-family:Comic Sans MS;
+                color:black; 
+              text-align: center;
+              font-size:18px; }
+             
+      
+      html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 150px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 150px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background-color:black;
+  text-align: center;
+}
+
+.container{
+  margin-top: 50px;
+  color: #fff;
+  width: 100%;
+}
+
+.fa-twitter {
+    color: #4099FF;
+}
+
+.fa-soundcloud {
+   color:orange;
+}
+
+.fa-spotify {
+  color:green;
+}
+
+.fa-facebook {
+    color: #3B5998;
+}
+
+.fa-youtube-play {
+    color: #e52d27;
+}
+
+.fa {
+    opacity: 0.7;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+.fa:hover{
+    opacity: 1;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+    
+    
+    
