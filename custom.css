@@ -1,5 +1,8 @@
 
-article  {background-color:#ffefe2;}
+.nav-link {font-size:16px;
+}
+
+.article {background-color:#ffefe2;}
 
 .firstarticle { font-family:Comic Sans MS;
                 color:black; 
