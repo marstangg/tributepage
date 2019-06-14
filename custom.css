@@ -1,29 +1,35 @@
 
-.nav-link {font-size:16px;
-          margin:10px;
+.carousel-item {
+  height: 100vh;
+  min-height:350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;
 }
-
-
+	.nav-link {
+		font-size: 17px;
+	}
 
 #spotify { background-color:white;
            padding:2px;}
            
-       
  #sound { background-color:white;
-           padding:2px;}
+           padding:2px; 
+            }
                 
    #youtube { background-color:white;
-             padding:2px;}
+             padding:2px;
+             }
              
    #twitter { background-color:white;
-              padding:2px;}
+              padding:2px;
+            }
               
-              #fb { background-color:white;
-           padding:2px;}
-          
-body {
-  margin-bottom: 150px;
-}
+     #fb { background-color:white;
+           padding:2px; }
+
 
 html {
   position: relative;
@@ -39,11 +45,6 @@ html {
   text-align: center;
 }
 
-.container{
-  margin-top: 50px;
-  color: #fff;
-  width: 100%;
-}
 
 .fa-twitter {
     color: #4099FF;
@@ -51,7 +52,6 @@ html {
 
 .fa-soundcloud {
    color:orange;
-
 }
 
 .fa-spotify {
@@ -65,7 +65,6 @@ html {
 .fa-youtube-play {
     color: #e52d27;
 }
-
 
 .fa {
 	background-color: #000;
@@ -97,7 +96,7 @@ html {
 }
     
     
-   button {
+  button {
   margin-top: 1em;
   text-align: center;
   background-color: #ffce3c;
@@ -115,3 +114,4 @@ html {
     transition: all .3s;
   } 
   
+    
