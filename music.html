@@ -10,36 +10,24 @@
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="custom.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round|Raleway" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <title>TRIBUTEPAGE</title>
+    
     <style>
- @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
-
-body {
-	font-family: 'Montserrat';
-	background: linear-gradient(
-		rgba(76, 76, 76, 1) 0%,
-		rgba(102, 102, 102, 1) 0%,
-		rgba(43, 43, 43, 1) 0%,
-		rgba(33, 33, 33, 1) 46%,
-		rgba(33, 33, 33, 1) 59%,
-		rgba(17, 17, 17, 1) 98%,
-		rgba(17, 17, 17, 1) 100%
-	);
-}
  </style>
- 
-  </head>   
-  <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
- <a class="navbar-brand" href="home.html"><img src="logo.jpg"></a>
+ </head>   
+ <body>
+<!-- Extra navbar code! 
+    <nav id="damnnav" class="navbar navbar-expand-lg navbar-light bg-light">
+     <a class="navbar-brand" href="home.html"><img class="mainlogo" src="logo.jpg"></a>
  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
    <span class="navbar-toggler-icon"></span>
  </button>
@@ -48,127 +36,74 @@ body {
      <li class="nav-item active">
        <a class="nav-link" href="aboutt.html">About</a>
      </li>
-     <li class="nav-item">
+     <li class="nav-item active">
        <a class="nav-link" href="music.html">Music</a>
      </li>
-     <li class="nav-item">
+     <li class="nav-item active">
        <a class="nav-link" href="photo.html">Photos</a>
      </li>
-      <li class="nav-item">
+      <li class="nav-item active">
        <a class="nav-link" href="#">Tour Dates</a>
      </li>
    </ul>
+   <span class="justify-content">
+    <a href="https://soundcloud.com/aboveandbeyond"> <i id="sound" class="fa fa-soundcloud fa-3x fa-fw"></i></a>
+              <a href="https://www.facebook.com/aboveandbeyond"><i id="fb" class="fa fa-facebook fa-3x fa-fw"></i></a>
+              <a href="https://twitter.com/aboveandbeyond"><i id="twitter" class="fa fa-twitter fa-3x fa-fw"></i></a>
+              <a href="https://www.youtube.com/aboveandbeyond"><i id="youtube" class="fa fa-youtube-play fa-3x fa-fw"></i></a>
+              <a href="https://open.spotify.com/artist/10gzBoINW3cLJfZUka8Zoe"><i id="spotify" class="fa fa-spotify fa-3x fa-fw"></i></a>
+    </span>
  </div>
+</nav> 
+     -->
+     
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="home.html"><img src="logo.jpg"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="home.html">Home
+         <span class="sr-only">(current)</span>
+         </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="music.html">Music</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="photo.html">Photos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tour.html">Tour Dates</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
-
-<div class="container">
-  <iframe width="100%" height="166" scrolling="no" frameborder="no" iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/3849089&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-
-  <iframe width="100%" height="166" scrolling="no" frameborder="no" iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/688436964&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
   
-  <iframe width="100%" height="400" src="https://www.youtube.com/embed/gT2oAJIHmLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- 
+  <div class="container-fluid"
+    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/3849089&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+   <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/688436964&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/gT2oAJIHmLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+  </div>
   
-<div class="container-fluid">
- <div class="row">
-  <div class="col-sm-offset-3 col-sm-9 col-md-9 col-">
-   <h2 class="sub-header">Tracklist</h2>
-   <table class="table table-sm table-inverse">
-    <thead>
-     <tr>
-      <th></th>
-      <th>SONG</th>
-      <th>ARTIST</th>
-      <th>ALBUM</th>
-     </tr>
-    </thead>
-    <tbody>
-     <tr>
-      <th scope="row"><i class="fa fa-plus fa-fw" aria-hidden="true"></i></th>
-      <td>Lysistrata</td>
-      <td>Aes Dana</td>
-      <td>Album Edit</td>
-     </tr>
-     <tr>
-      <th scope="row"><i class="fa fa-plus fa-fw" aria-hidden="true"></i></th>
-      <td>Evergreen</td>
-      <td>Aes Dana</td>
-      <td>Album Edit</td>
-     </tr>
-     <tr>
-      <th scope="row"><i class="fa fa-plus fa-fw" aria-hidden="true"></i></th>
-      <td>Haze</td>
-      <td>Aes Dana</td>
-      <td>Album Edit</td>
-     </tr>
-     <th scope="row"><i class="fa fa-plus fa-fw" aria-hidden="true"></i></th>
-     <td>
-      The Devil's Confession</td>
-     <td>Koan</td>
-     <td>Album Edit</td>
-     </tr>
-     <th scope="row"><i class="fa fa-plus fa-fw" aria-hidden="true"></i></th>
-     <td>
-      One Day All Will Become Clear</td>
-     <td>Koan</td>
-     <td>Album Edit</td>
-     </tr>
-     <th scope="row"><i class="fa fa-plus fa-fw" aria-hidden="true"></i></th>
-     <td>
-      Darkness in the Box</td>
-     <td>Koan</td>
-     <td>Album Edit</td>
-     </tr>
-     <th scope="row"><i class="fa fa-plus fa-fw" aria-hidden="true"></i></th>
-     <td>
-      Landmark</td>
-     <td>Vibrasphere</td>
-     <td>Album Edit</td>
-     </tr>
-     <th scope="row"><i class="fa fa-plus fa-fw" aria-hidden="true"></i></th>
-     <td>
-      Reservoir</td>
-     <td>Vibrasphere</td>
-     <td>Album Edit</td>
-     </tr>
-     <th scope="row"><i class="fa fa-plus fa-fw" aria-hidden="true"></i></th>
-     <td>
-      Manzanilla</td>
-
-
-     <td>Vibrasphere</td>
-     <td>Album Edit</td>
-     </tr>
-     <th scope="row"><i class="fa fa-plus fa-fw" aria-hidden="true"></i></th>
-     <td>Emotional Fugitive</td>
-
-     <td>Vibrasphere</td>
-     <td>Album Edit</td>
-     </tr>
-     <th scope="row"><i class="fa fa-remove fa-fw" aria-hidden="true"></i></th>
-     <td>Removed</td>
-
-     <td>Removed</td>
-     <td>Removed</td>
-     </tr>
-     <th scope="row"><i class="fa fa-remove fa-fw" aria-hidden="true"></i></th>
-     <td>Removed</td>
-
-     <td>Removed</td>
-     <td>Removed</td>
-     </tr>
-     <th scope="row"><i class="fa fa-remove fa-fw" aria-hidden="true"></i></th>
-     <td>Removed</td>
-
-     <td>Removed</td>
-     <td>Removed</td>
-     </tr>
-     <th scope="row"><i class="fa fa-r fa-fw" aria-hidden="true"></i></th>
-     <td>Removed</td>
-     <td>Removed</td>
-     <td>Removed</td>
-     </tr>
-    </tbody>
-   </table>
-      </body>
-      </html>
+  
+     <div class="footer">
+    <input type="email" name="EMAIL" placeholder="Subscribe for updates" style="width: 260px">
+       <button>Submit</button>
+      <div class="contain">
+              <a href="https://soundcloud.com/aboveandbeyond"> <i class="fa fa-soundcloud fa-3x fa-fw"></i></a>
+              <a href="https://www.facebook.com/aboveandbeyond"><i class="fa fa-facebook fa-3x fa-fw"></i></a>
+              <a href="https://twitter.com/aboveandbeyond"><i class="fa fa-twitter fa-3x fa-fw"></i></a>
+              <a href="https://www.youtube.com/aboveandbeyond"><i class="fa fa-youtube-play fa-3x fa-fw"></i></a>
+              <a href="https://open.spotify.com/artist/10gzBoINW3cLJfZUka8Zoe"><i class="fa fa-spotify fa-3x fa-fw"></i></a>
+              </div> 
+              </div>
+</body>
+</html>
