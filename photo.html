@@ -8,8 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-   <script src="//code.jquery.com/jquery-1.11.1.min.js">
-   </script>
+   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <!-- javascript -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -19,16 +18,18 @@
     <link rel="stylesheet" type="text/css" href="custom.css">
     <title>TRIBUTEPAGE</title>
     <style>
-    body {background-color:black;}
+    
+    
+body { background-color:black;
+         background-image: url("aabbcc.jpg");
+          background-attachment: fixed;
+          background-repeat:no-repeat;
+          background-position:center;
+          background-size:contain; }
   
-   img {
-  width:30%;
-  float:right;
-  margin:1.65%;
-   }
 
 p {
-  color:grey;
+   color:grey;
   font-family: Raleway;
   margin-left: 1.66%;
   font-size:23px;
@@ -36,23 +37,31 @@ p {
   text-transform:uppercase;
   border-bottom: 2px solid #f1f1f1;
   width: 30%;
-  padding-bottom: 20px;
-}
+  padding-bottom: 20px;}
+
+.text_center {text-align: center;width: 100%; }
+.img_polygon{position:relative;-webkit-transition: .6s all, .3s .3s -webkit-transform;transition: .6s all, .3s .3s transform;-webkit-clip-path: polygon(50% 50%, 50% 50%, 100% 50%, 50% 100%, 50% 100%, 50% 50%);clip-path: polygon(50% 0%, 50% 0%, 100% 50%, 50% 100%, 50% 100%, 0% 50%);opacity: .7; -webkit-filter: grayscale(0%);}
+ img {border-style: solid; -webkit-transform-origin: left top; -ms-transform-origin: left top; -o-transform-origin: left top;transform-origin: left top;}
+.img_polygon:hover { -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%, 0% 50%); clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%, 0% 50%); -webkit-transform: scale(1.4); -ms-transform: scale(1.4);transform: scale(1.4);z-index: 10;box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);border-radius: 0px;opacity: 1;transform-origin: center center; -webkit-filter: grayscale(0%);filter: grayscale(0%);}
+.img_polygon:nth-child(1n + 5) { -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);}
+.img_polygon:nth-child(1n + 5):hover {-webkit-transform: translateY(-50%) scale(1.4);-ms-transform: translateY(-50%) scale(1.4);transform: translateY(-50%) scale(1.4);}
+
 
 .footer{position: absolute;}
-
-    </style>
-    <body>
-<section class="topnav">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
- <a class="navbar-brand" href="home.html"><img src="logo.jpg"></a>
+    
+</style>
+ </head>   
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ <a class="navbar-brand" href="home.html"> <img src="logo.jpg"></a>
  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
    <span class="navbar-toggler-icon"></span>
  </button>
  <div class="collapse navbar-collapse" id="navbarNav">
    <ul class="navbar-nav">
      <li class="nav-item active">
-       <a class="nav-link" href="aboutt.html">About <span class="sr-only">(current)</span></a>
+       <a class="nav-link" href="aboutt.html">About</a>
      </li>
      <li class="nav-item">
        <a class="nav-link" href="music.html">Music</a>
@@ -63,23 +72,21 @@ p {
       <li class="nav-item">
        <a class="nav-link" href="#">Tour Dates</a>
      </li>
-  
-   </ul>
- </div>
-</nav>
-</section>        
-        
-<p>GALLERY</p>
-<img src = "abovenbeyond.jpg">
-<img src = "reveal.jpg">
-<img src = "weekend.jpg">
-<img src= "guitar.jpg">
-<img src= "glasgow.jpg">
-<img src= "orchestra.jpg">
-<img src="abgt100.jpg">
-<img src="abgt250.jpg">
-<img src="abgt300.jpg">
+    </ul>
+   </div> 
+   </nav>
 
+    <div class="container">
+      <div class="text_center">
+            <img src="abovenbeyond.jpg" width="40%" class="img_polygon">
+            <img src="reveal.jpg"  width="40%" class="img_polygon">
+            <img src="weekend.jpg" width="40%" class="img_polygon">
+            <img src="guitar.jpg"  width="40%" class="img_polygon">
+            <img src="abgt100.jpg"width="40%" class="img_polygon">
+            <img src="abgt250.jpg" width="40%" class="img_polygon">
+            <img src="abgt300.jpg" width="40%" class="img_polygon">
+        </div>
+</div>
     
     </body>
 
