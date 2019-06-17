@@ -90,7 +90,7 @@ html {
   color:white;
   letter-spacing: 1px;
   transition: all .3s;
-&:hover {
+ &:hover {
     background-color: #ffe189;
     cursor: pointer;
   } 
