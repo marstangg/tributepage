@@ -1,6 +1,6 @@
 .carousel-item {
   width:100%;
-  min-height:650px;
+  min-height:65px;
   background: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -11,24 +11,6 @@
 		font-size:17px;
 	    font-family:Comic Sans MS;
 	}
-
-#spotify { background-color:white;
-           padding:2px;}
-           
- #sound { background-color:white;
-           padding:2px; 
-            }
-                
-   #youtube { background-color:white;
-             padding:2px;
-             }
-             
-   #twitter { background-color:white;
-              padding:2px;
-            }
-              
-     #fb { background-color:white;
-           padding:2px; }
 
 
 html {
