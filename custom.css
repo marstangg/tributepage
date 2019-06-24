@@ -71,10 +71,9 @@ html {
   padding: 0.8em 1.3em;
   font-weight: bold;
   color:white;
-  letter-spacing: 1px;
-  transition: all .3s;
- &:hover {
-    background-color: #ffe189;
+  letter-spacing: 1px;}
+  
+   button :hover {
     cursor: pointer;
   } 
   
