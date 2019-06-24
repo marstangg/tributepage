@@ -49,7 +49,7 @@ p {
 .img_polygon:nth-child(1n + 5):hover {-webkit-transform: translateY(-50%) scale(1.4);-ms-transform: translateY(-50%) scale(1.4);transform: translateY(-50%) scale(1.4);}
 
 .footer{position:fixed;}
-    
+  
 </style>
 
  </head>   
@@ -79,9 +79,9 @@ p {
   </div>
 </nav>
   
-
+<!-- photo gallery with hoover over animation for desktop -->
     <div class="container-fluid">
-      <div class="text_center">
+      <div class="text_center d-none d-md-block">
           <p>PHOTO GALLERY : hoover over images</p> 
             <img src="./images/abovenbeyond.jpg" alt="gallery pic 1" width="40%" class="img_polygon">
             <img src="./images/orchestra.jpg" alt="gallery pic 2" width="40%" class="img_polygon">
@@ -90,6 +90,18 @@ p {
             <img src="./images/abgt100.jpg" alt="gallery pic 5" width="40%" class="img_polygon">
             <img src="./images/abgt250.jpg" alt="gallery pic 6" width="40%" class="img_polygon">
             <img src="./images/abgt300.jpg" alt="gallery pic 7" width="40%" class="img_polygon">
+        </div>
+        
+  <!--photo gallery without animation for mobile devices.-->
+          <div class="text_center d-md-none">
+          <p>PHOTO GALLERY:</p> 
+            <img src="./images/abovenbeyond.jpg" alt="gallery pic 1" width="40%"> 
+            <img src="./images/orchestra.jpg" alt="gallery pic 2" width="40%">
+            <img src="./images/weekend.jpg" alt="gallery pic 3" width="40%" >
+            <img src="./images/guitar.jpg"  alt="gallery pic 4" width="40%">
+            <img src="./images/abgt100.jpg" alt="gallery pic 5" width="40%" >
+            <img src="./images/abgt250.jpg" alt="gallery pic 6" width="40%" >
+            <img src="./images/abgt300.jpg" alt="gallery pic 7" width="40%" >
         </div>
        </div>
     
