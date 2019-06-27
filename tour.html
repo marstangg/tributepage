@@ -20,18 +20,167 @@
     <title>TRIBUTEPAGE</title>
     
 <style> 
-.row { margin-top:100px;
-       margin-left:5px;
-       color:;
-       font-size:10px;
-       
+
+@media (max-height: 800px) 
+{
+body {  background-image: url("./images/tourbg.jpg");
+background-repeat: no-repeat;
+background-size: cover;
 }
 
+
+#plan
+{
+  width:945px;
+  height:150px;
+  background-color: black;
+  margin: 0 auto;
+  margin-top:60px;
+ opacity: 0.5;
+filter: alpha(opacity=50);
+}
+
+#plan:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+.title{
+  width:200px;
+  height:150px;
+  background-color: black;
+  float:left;
+   -webkit-transition: background-color 0.3s ease-out 0.3s, width 0.3s ease-out 0.3s;
+    -moz-transition:background-color width 0.3s ease-out 0.3s, width 0.3s ease-out 0.3s;
+    -o-transition: background-color width 0.3s ease-out 0.3s, width 0.3s ease-out 0.3s;
+    transition: background-color width 0.3s ease-out 0.3s, width 0.3s ease-out 0.3s;
+  
+}
+
+.title h1{
+  
+  color:white;
+  font-family:'Open Sans';
+  text-transform:uppercase;
+  font-size:20px;
+  font-weight: 100;
+  text-align:center;
+  margin:0px;
+  padding:0px;
+  padding-top:35px;
+}
+
+.title h1 span{
+  font-size:10px;
+}
+
+.title p{
+  color:white;
+  font-family:'Open Sans';
+  text-transform:uppercase;
+  font-size:40px;
+  font-weight:bold;
+  text-align:center;
+  margin:0px;
+  padding:0px;
+  
+}
+
+
+.containDetails{
+  max-width: 500px;
+  float:left;
+  margin-top: 29px;
+  padding-left: 30px;
+}
+
+.details li{
+  display:inline-block;
+  margin:0px;
+  padding:0px;
+  font-size: 20px;
+  color: white;
+  font-family:'Open Sans';
+  font-weight:bold;
+  text-align: center;
+  padding-left: 30px;
+}
+
+.first{
+  padding:0px!important;
+}
+
+.details{
+  padding:0px;
+  float:left;
+}
+
+.details li span{
+  font-size:15px;
+  text-transform:uppercase;
+}
+
+.details li span:before{
+ content: '\a' ; 
+ white-space: pre;  
+}
+
+.select{
+  margin-top: 73px;
+  margin-left: 14px;
+}
+.end{
+  width: 150px;
+  height: 150px;
+  background-color: black;  
+  float:right;
+  position: relative;
+  left: 64px;
+ 
+}
+
+.button-pill {
+-webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+-ms-border-radius: 50px;
+-o-border-radius: 50px;
+border-radius: 50px;
+}
+
+.button {
+-webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+background-color: black;
+background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbfbfb), color-stop(100%, #e1e1e1));
+background: -webkit-linear-gradient(top, #fbfbfb, #e1e1e1);
+background: -moz-linear-gradient(top, #fbfbfb, #e1e1e1);
+background: -o-linear-gradient(top, #fbfbfb, #e1e1e1);
+background: linear-gradient(top, #fbfbfb, #e1e1e1);
+display: -moz-inline-stack;
+display: inline-block;
+vertical-align: middle;
+zoom: 1;
+border: 1px solid #d4d4d4;
+height: 32px;
+line-height: 32px;
+padding: 0px 25.6px;
+font-weight: 300;
+font-size: 14px;
+font-family:'Open Sans';
+color: #666666;
+text-shadow: 0 1px 1px white;
+margin: 0;
+text-decoration: none;
+text-align: center;
+}
+
+}
  </style>
  </head>   
  <body>
      
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <div class="container">
     <a class="navbar-brand" href="home.html"><img src="./images/logo.jpg" alt="navbarlogo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,55 +203,128 @@
       </ul>
     </div>
   </div>
-</nav>
+</nav> 
+     
+     
 
-    <div>
-    <div class="row">
-      <h2 class="text-center list-title">Tour Dates 2019</h2>
-      <div class="col-md-12">
-        <table class="table table-striped">
-          <tr>
-            <th class="head text-center">Date</th>
-            <th class="head text-center">Venue</th>
-            <th class="head text-center">City/Country</th>
-          </tr>
-          <tr>
-            <td class="head text-center">20TH JUNE</td>
-            <td class="head text-center">KAOS NIGHTCLUB</td>
-            <td class="head text-center">LAS VEGAS, NV</td>
-          </tr>
-          <tr>
-            <td class="head text-center">21ST JUNE</td>
-            <td class="head text-center">CIUDAD DEL ROCK</td>
-            <td class="head text-center">MONTEAGUDO DEL CASTIL, SPAIN</td>
-          </tr>
-          <tr>
-            <td class="head text-center">22ND JUNE</td>
-            <td class="head text-center">A SUMMER STORY</td>
-            <td class="head text-center">MONTEAGUDO DEL CASTIL, SPAIN</td>
-          </tr>
-             <tr>
-            <td class="head text-center">12TH JULY</td>
-            <td class="head text-center">USHUAIA BEACH CLUB IBIZA</td>
-            <td class="head text-center">ST JOSEP DE SA TA-LAIA, SPAIN</td>
-          </tr>
-        </table>
-      </div>
-    </div>
+<div id="plan">
+  <div class="title">
+    <h1>07 JULY <span>2019</span></h1>
+    <p>SUNDAY</p>
+</div>
+  
+<div class="containDetails">
+<ul class="details">
+  <li class="first">SOAK SUNDAYS
+  <li><span>LOS ANGELES,</span></li>
+  <li><span>CALIFORNIA</span></li>
+</ul>
+  </div>
+  
+  <div class="end">
+   <div class="select">
+     <a href="#" class="button button-flat-royal button-pill">TICKETS</a>
+     </div>
+  </div>
+</div>
+
+<div id="plan">
+  <div class="title">
+    <h1>12 JULY <span>2019</span></h1>
+    <p>FRIDAY</p>
+</div>
+  
+  <div class="containDetails">
+<ul class="details">
+  <li class="first">SOAK SUNDAYS
+  <li><span>LOS ANGELES,</span></li>
+  <li><span>CALIFORNIA</span></li>
+</ul>
+  </div>
+  
+  
+  <div class="end">
+    <div class="select">
+    <a href="#" class="button button-flat-royal button-pill">TICKETS</a>
+    </div></div>
+</div>
+
+<div id="plan">
+  <div class="title">
+    <h1>12 JULY <span>2019</span></h1>
+    <p>FRIDAY</p>
+</div>
+  
+  <div class="containDetails">
+<ul class="details">
+  <li class="first">SOAK SUNDAYS
+  <li><span>LOS ANGELES,</span></li>
+  <li><span>CALIFORNIA</span></li>
+</ul>
   </div>
 
-<img src="./images/london.jpg" alt="london tour pic"width=100%>
+
+  <div class="end">
+    <div class="select">
+    <a href="#" class="button button-flat-royal button-pill">TICKETS</a>
+    </div>
+    </div>
+</div>
+
+
+<div id="plan">
+  <div class="title">
+    <h1>07 JULY <span>2019</span></h1>
+    <p>SUNDAY</p>
+</div>
+  
+<div class="containDetails">
+<ul class="details">
+  <li class="first">SOAK SUNDAYS
+  <li><span>LOS ANGELES,</span></li>
+  <li><span>CALIFORNIA</span></li>
+</ul>
+  </div>
+  
+  <div class="end">
+   <div class="select">
+     <a href="#" class="button button-flat-royal button-pill">TICKETS</a>
+     </div>
+  </div>
+</div>
+
+<div id="plan">
+  <div class="title">
+    <h1>07 JULY <span>2019</span></h1>
+    <p>SUNDAY</p>
+</div>
+  
+<div class="containDetails">
+<ul class="details">
+  <li class="first">SOAK SUNDAYS
+  <li><span>LOS ANGELES,</span></li>
+  <li><span>CALIFORNIA</span></li>
+</ul>
+  </div>
+  
+  <div class="end">
+   <div class="select">
+     <a href="#" class="button button-flat-royal button-pill">TICKETS</a>
+     </div>
+  </div>
+</div>
+
 
 <!-- page footer subscription form with social media icons -->   
      <div class="footer">
     <input type="email" name="EMAIL" placeholder="Subscribe for updates" style="width: 260px">
        <button>Submit</button>
       <div class="contain">
-              <a href="https://soundcloud.com/aboveandbeyond"> <i class="fa fa-soundcloud fa-3x fa-fw"></i></a>
-              <a href="https://www.facebook.com/aboveandbeyond"><i class="fa fa-facebook fa-3x fa-fw"></i></a>
-              <a href="https://twitter.com/aboveandbeyond"><i class="fa fa-twitter fa-3x fa-fw"></i></a>
-              <a href="https://www.youtube.com/aboveandbeyond"><i class="fa fa-youtube-play fa-3x fa-fw"></i></a>
-              <a href="https://open.spotify.com/artist/10gzBoINW3cLJfZUka8Zoe"><i class="fa fa-spotify fa-3x fa-fw"></i></a>
+              <a href="https://soundcloud.com/aboveandbeyond"> <i class="fa fa-soundcloud fa-4x fa-fw"></i></a>
+              <a href="https://www.facebook.com/aboveandbeyond"><i class="fa fa-facebook fa-4x fa-fw"></i></a>
+              <a href="https://twitter.com/aboveandbeyond"><i class="fa fa-twitter fa-4x fa-fw"></i></a>
+              <a href="https://www.youtube.com/aboveandbeyond"><i class="fa fa-youtube-play fa-4x fa-fw"></i></a>
+              <a href="https://open.spotify.com/artist/10gzBoINW3cLJfZUka8Zoe"><i class="fa fa-spotify fa-4x fa-fw"></i></a>
               </div> 
               </div>
 </body>

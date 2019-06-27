@@ -17,7 +17,7 @@ html {
 
 .footer {
   position: fixed;
-  bottom:1px;
+  bottom:0px;
   width: 100%;
   height: auto;
   background-color:black;
@@ -27,22 +27,27 @@ html {
 
 .fa-twitter {
     color: #4099FF;
+    margin:10px;
 }
 
 .fa-soundcloud {
    color:orange;
+    margin:10px;
 }
 
 .fa-spotify {
   color:green;
+   margin:10px;
 }
 
 .fa-facebook {
     color: #3B5998;
+     margin:10px;
 }
 
 .fa-youtube-play {
     color: #e52d27;
+     margin:10px;
 }
 
 .fa {

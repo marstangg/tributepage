@@ -22,34 +22,35 @@
 
     <title>TRIBUTEPAGE</title>
     <style>
-
+  
     body { 
           background-color:black;
-          background-repeat:no-repeat;
-          background-size:cover;
-          background-image: url(background1.jpg);
-          margin-top:80px;
+          background-repeat:none;
+          background-size: contain;
+          background-image: url(./images/gallerybg.jpg);
+          margin-top:70px;
     }
 
 p {
    color:white;
-  font-family: Raleway;
+  font-family: arial;
   margin-left: 1.66%;
   font-size:23px;
   font-weight: 800;
   border-bottom: 2px solid #f1f1f1;
   width: 30%;
-  padding-bottom: 20px;}
+  padding-bottom:0px;
+}
 
 .text_center {text-align: center;width: 100%; }
 .img_polygon{position:relative;-webkit-transition: .6s all, .3s .3s -webkit-transform;transition: .6s all, .3s .3s transform;-webkit-clip-path: polygon(50% 50%, 50% 50%, 100% 50%, 50% 100%, 50% 100%, 50% 50%);clip-path: polygon(50% 0%, 50% 0%, 100% 50%, 50% 100%, 50% 100%, 0% 50%);opacity:0.7; -webkit-filter: grayscale(0%);}
 .img {border-style: solid; -webkit-transform-origin: left top; -ms-transform-origin: left top; -o-transform-origin: left top;transform-origin: left top;}
-.img_polygon:hover { -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%, 0% 50%); clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%, 0% 50%); -webkit-transform: scale(1.4); -ms-transform: scale(1.4);transform: scale(1.4);z-index: 10;box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);border-radius: 0px;opacity: 1;transform-origin: center center; -webkit-filter: grayscale(0%);filter: grayscale(0%);}
+.img_polygon:hover { -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%, 0% 50%); clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%, 0% 50%); -webkit-transform: scale(1.4); -ms-transform: scale(1.4);transform: scale(1.4);z-index: 10;box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);border-radius:0px; opacity: 1;transform-origin: center center; -webkit-filter: grayscale(0%);filter: grayscale(0%);}
 .img_polygon:nth-child(1n + 5) { -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);}
 .img_polygon:nth-child(1n + 5):hover {-webkit-transform: translateY(-50%) scale(1.4);-ms-transform: translateY(-50%) scale(1.4);transform: translateY(-50%) scale(1.4);}
 
 .footer{position:fixed;}
-  
+
 </style>
 
  </head>   
@@ -82,7 +83,7 @@ p {
 <!-- photo gallery with hoover over animation for desktop -->
     <div class="container-fluid">
       <div class="text_center d-none d-md-block">
-          <p>PHOTO GALLERY : hoover over images</p> 
+         <center> <p>PHOTO GALLERY: </p> </center>
             <img src="./images/abovenbeyond.jpg" alt="gallery pic 1" width="40%" class="img_polygon">
             <img src="./images/orchestra.jpg" alt="gallery pic 2" width="40%" class="img_polygon">
             <img src="./images/weekend.jpg" alt="gallery pic 3" width="40%" class="img_polygon">
@@ -94,14 +95,14 @@ p {
         
   <!--photo gallery without animation for mobile devices.-->
           <div class="text_center d-md-none">
-          <p>PHOTO GALLERY:</p> 
-            <img src="./images/abovenbeyond.jpg" alt="gallery pic 1" width="40%"> 
-            <img src="./images/orchestra.jpg" alt="gallery pic 2" width="40%">
-            <img src="./images/weekend.jpg" alt="gallery pic 3" width="40%" >
-            <img src="./images/guitar.jpg"  alt="gallery pic 4" width="40%">
-            <img src="./images/abgt100.jpg" alt="gallery pic 5" width="40%" >
-            <img src="./images/abgt250.jpg" alt="gallery pic 6" width="40%" >
-            <img src="./images/abgt300.jpg" alt="gallery pic 7" width="40%" >
+          <center><p>PHOTO GALLERY:</p> </center>
+            <img src="./images/abovenbeyond.jpg" alt="gallery pic 1" width="40%" height="150px"> 
+            <img src="./images/orchestra.jpg" alt="gallery pic 2" width="40%" height="150px">
+            <img src="./images/weekend.jpg" alt="gallery pic 3" width="40%" height="150px">
+            <img src="./images/guitar.jpg"  alt="gallery pic 4" width="40%" height="150px">
+            <img src="./images/abgt100.jpg" alt="gallery pic 5" width="40%" height="150px">
+            <img src="./images/abgt250.jpg" alt="gallery pic 6" width="40%" height="150px">
+            <img src="./images/abgt300.jpg" alt="gallery pic 7" width="40%" height="150px">
         </div>
        </div>
     
@@ -109,11 +110,11 @@ p {
     <input type="email" name="EMAIL" placeholder='Subscribe for updates'required style="width: 260px">
        <button type="submit">Submit</button>
       <div class="contain">
-              <a href="https://soundcloud.com/aboveandbeyond"> <i class="fa fa-soundcloud fa-3x fa-fw"></i></a>
-              <a href="https://www.facebook.com/aboveandbeyond"><i class="fa fa-facebook fa-3x fa-fw"></i></a>
-              <a href="https://twitter.com/aboveandbeyond"><i class="fa fa-twitter fa-3x fa-fw"></i></a>
-              <a href="https://www.youtube.com/aboveandbeyond"><i class="fa fa-youtube-play fa-3x fa-fw"></i></a>
-              <a href="https://open.spotify.com/artist/10gzBoINW3cLJfZUka8Zoe"><i class="fa fa-spotify fa-3x fa-fw"></i></a>
+              <a href="https://soundcloud.com/aboveandbeyond"> <i class="fa fa-soundcloud fa-4x fa-fw"></i></a>
+              <a href="https://www.facebook.com/aboveandbeyond"><i class="fa fa-facebook fa-4x fa-fw"></i></a>
+              <a href="https://twitter.com/aboveandbeyond"><i class="fa fa-twitter fa-4x fa-fw"></i></a>
+              <a href="https://www.youtube.com/aboveandbeyond"><i class="fa fa-youtube-play fa-4x fa-fw"></i></a>
+              <a href="https://open.spotify.com/artist/10gzBoINW3cLJfZUka8Zoe"><i class="fa fa-spotify fa-4x fa-fw"></i></a>
               </div> 
              </div>
     </body>
