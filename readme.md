@@ -2,7 +2,7 @@
 This tribute page is the first project that i have embarked on since learning html/css. This is a simple tribute webpage developed and built from scratch by Marcus Tang.
 
 ### <u>UX</u>
-This website  provides information about the band and their tour schedule for the month of June in 2019.
+This website  provides information about the band and their tour schedule for the month of July in 2019.
 Users will be able to access audio and video clips via links on the page.
 There is an image gallery section which provides a small selection of images of the band members and past gigs. Links to their verified social media pages are added so fans can follow the bands latest news and gossip.
 
@@ -38,7 +38,7 @@ Email subscription form with hover over animated  social media buttons to bands 
 ##### Tour Section
 Fixed Navigation Bar at the top of the page containing page navigation. All sections easily accessed at all times.
 
-Information on bands touring schedule for the month of june in year 2019.
+Information on bands touring schedule for the month of july in year 2019 with option to purchase tickets. Link is a pesudo link.
 
 Email subscription form with hover over animated  social media buttons to bands official social media pages.
 
@@ -49,9 +49,6 @@ HTML
 CSS
 
 Bootstrap 4
-
-Google Fonts -The project uses Google fonts in order to use the Roboto Font.
-Font Awesome - The project uses Font Awesome in order to display various icons for social media icons.
 
 ### <u>Validation</u>
 
@@ -66,12 +63,9 @@ A HTML formatter was used
 ### <u>Deployment</u>
 This website has been hosted on GitHub pages, and it is deployed directly from the master branch. Therefore, once a new commit has been done the changes will automatically take effect on the master branch.
 
-Additionally, if you wish to run the code locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/marstangg/tributepage into your terminal. In order to cut ties with this GitHub repository, type git remote rm origin into the terminal.
-
 
 ### <u>Credits</u>
 The links provided on the website are as follows:
-
 
 Verified Twitter Account:
 https://twitter.com/aboveandbeyond?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor

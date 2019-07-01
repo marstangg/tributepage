@@ -1,46 +1,51 @@
  <!doctype html>
 <html lang="en">
   <head>
- 
+ <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- Bootstrap CSS -->
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round|Raleway" rel="stylesheet">
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
     <title>TRIBUTEPAGE</title>
     
 <style> 
 
-@media (max-height: 800px) 
-{
-body {  background-image: url("./images/tourbg.jpg");
+
+
+.wrapper {
+background-image: url("./images/tourbg.jpg");
 background-repeat: no-repeat;
-background-size: cover;
+background-size:cover;
+background-position:center;
+margin-top:50px;
+margin-bottom:100px;
 }
 
 
-#plan
+.plan
 {
   width:945px;
   height:150px;
   background-color: black;
-  margin: 0 auto;
-  margin-top:60px;
+  margin: 10px auto;
  opacity: 0.5;
 filter: alpha(opacity=50);
 }
 
-#plan:hover {
+.plan:hover {
   opacity: 1.0;
   filter: alpha(opacity=100);
 }
@@ -78,7 +83,7 @@ filter: alpha(opacity=50);
   color:white;
   font-family:'Open Sans';
   text-transform:uppercase;
-  font-size:40px;
+  font-size:20px;
   font-weight:bold;
   text-align:center;
   margin:0px;
@@ -99,7 +104,7 @@ filter: alpha(opacity=50);
   margin:0px;
   padding:0px;
   font-size: 20px;
-  color: white;
+  color: #4180ff;
   font-family:'Open Sans';
   font-weight:bold;
   text-align: center;
@@ -108,6 +113,7 @@ filter: alpha(opacity=50);
 
 .first{
   padding:0px!important;
+  color:#4180ff;
 }
 
 .details{
@@ -148,9 +154,6 @@ border-radius: 50px;
 }
 
 .button {
--webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
--moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
 background-color: black;
 background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbfbfb), color-stop(100%, #e1e1e1));
 background: -webkit-linear-gradient(top, #fbfbfb, #e1e1e1);
@@ -175,12 +178,11 @@ text-decoration: none;
 text-align: center;
 }
 
-}
  </style>
  </head>   
  <body>
      
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <div class="container">
     <a class="navbar-brand" href="home.html"><img src="./images/logo.jpg" alt="navbarlogo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -204,14 +206,13 @@ text-align: center;
     </div>
   </div>
 </nav> 
-     
-     
-
-<div id="plan">
+  
+  
+<div class="container-fluid wrapper">
+<div class="plan">
   <div class="title">
     <h1>07 JULY <span>2019</span></h1>
-    <p>SUNDAY</p>
-</div>
+    <p>SUNDAY</p></div>
   
 <div class="containDetails">
 <ul class="details">
@@ -228,7 +229,7 @@ text-align: center;
   </div>
 </div>
 
-<div id="plan">
+<div class="plan">
   <div class="title">
     <h1>12 JULY <span>2019</span></h1>
     <p>FRIDAY</p>
@@ -249,16 +250,16 @@ text-align: center;
     </div></div>
 </div>
 
-<div id="plan">
+<div class="plan">
   <div class="title">
-    <h1>12 JULY <span>2019</span></h1>
+    <h1>19 JULY <span>2019</span></h1>
     <p>FRIDAY</p>
 </div>
   
   <div class="containDetails">
 <ul class="details">
-  <li class="first">SOAK SUNDAYS
-  <li><span>LOS ANGELES,</span></li>
+  <li class="first"> WANDERLUST
+  <li><span>SQUAW VALLEY,</span></li>
   <li><span>CALIFORNIA</span></li>
 </ul>
   </div>
@@ -272,17 +273,17 @@ text-align: center;
 </div>
 
 
-<div id="plan">
+<div class="plan">
   <div class="title">
-    <h1>07 JULY <span>2019</span></h1>
+    <h1>21 JULY <span>2019</span></h1>
     <p>SUNDAY</p>
 </div>
   
 <div class="containDetails">
 <ul class="details">
-  <li class="first">SOAK SUNDAYS
-  <li><span>LOS ANGELES,</span></li>
-  <li><span>CALIFORNIA</span></li>
+  <li class="first">PAROOKVILLE
+  <li><span>WEEZE</span></li>
+  <li><span></span></li>
 </ul>
   </div>
   
@@ -293,17 +294,17 @@ text-align: center;
   </div>
 </div>
 
-<div id="plan">
+<div class="plan">
   <div class="title">
-    <h1>07 JULY <span>2019</span></h1>
-    <p>SUNDAY</p>
+    <h1>27 JULY <span>2019</span></h1>
+    <p>SAT</p>
 </div>
   
 <div class="containDetails">
 <ul class="details">
-  <li class="first">SOAK SUNDAYS
-  <li><span>LOS ANGELES,</span></li>
-  <li><span>CALIFORNIA</span></li>
+  <li class="first"> GROUP THERAPY 
+  <li><span>GEORGE,</span></li>
+  <li><span>WASHINGTON</span></li>
 </ul>
   </div>
   
@@ -313,18 +314,18 @@ text-align: center;
      </div>
   </div>
 </div>
-
+</div>
 
 <!-- page footer subscription form with social media icons -->   
      <div class="footer">
     <input type="email" name="EMAIL" placeholder="Subscribe for updates" style="width: 260px">
        <button>Submit</button>
       <div class="contain">
-              <a href="https://soundcloud.com/aboveandbeyond"> <i class="fa fa-soundcloud fa-4x fa-fw"></i></a>
-              <a href="https://www.facebook.com/aboveandbeyond"><i class="fa fa-facebook fa-4x fa-fw"></i></a>
-              <a href="https://twitter.com/aboveandbeyond"><i class="fa fa-twitter fa-4x fa-fw"></i></a>
-              <a href="https://www.youtube.com/aboveandbeyond"><i class="fa fa-youtube-play fa-4x fa-fw"></i></a>
-              <a href="https://open.spotify.com/artist/10gzBoINW3cLJfZUka8Zoe"><i class="fa fa-spotify fa-4x fa-fw"></i></a>
+              <a href="https://soundcloud.com/aboveandbeyond" target="_blank"> <i class="fa fa-soundcloud fa-4x fa-fw"></i></a>
+              <a href="https://www.facebook.com/aboveandbeyond" target="_blank"><i class="fa fa-facebook fa-4x fa-fw"></i></a>
+              <a href="https://twitter.com/aboveandbeyond" target="_blank"><i class="fa fa-twitter fa-4x fa-fw"></i></a>
+              <a href="https://www.youtube.com/aboveandbeyond" target="_blank"><i class="fa fa-youtube-play fa-4x fa-fw"></i></a>
+              <a href="https://open.spotify.com/artist/10gzBoINW3cLJfZUka8Zoe" target="_blank"><i class="fa fa-spotify fa-4x fa-fw"></i></a>
               </div> 
               </div>
 </body>

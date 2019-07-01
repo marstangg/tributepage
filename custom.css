@@ -1,12 +1,15 @@
+
+
+
 .carousel-item {
   width:100%;
   min-height:100vh;
   background: no-repeat;
   background-size:cover;}
 
-	.nav-link {
-		font-size:17px;
-	    font-family:Comic Sans MS;
+.nav-link {	font-size:18px;
+	    font-family:arial;
+	    color:black;
 	}
 
 
@@ -82,3 +85,70 @@ html {
     cursor: pointer;
   } 
   
+@media (min-width: 1281px) {
+
+.container-fluid  {width :100% ;
+                     height: auto; }
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .container-fluid { width :100% ;
+                     height: auto; }
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .container-fluid { width :100% ;
+                     height: auto; }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .container-fluid { width :100% ;
+                     height: auto; }
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .container-fluid { width :100% ;
+                     height: auto; }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .container-fluid { width :100% ;
+                     height: auto; }
+  
+}
