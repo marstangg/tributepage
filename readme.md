@@ -1,5 +1,5 @@
-# <a href="https://github.com/marstangg/tributepage"> Above and Beyond Tribute Page</a>
-This tribute page is the first project that i have embarked on since learning html/css. This is a simple tribute webpage developed and built from scratch by Marcus Tang.
+# <a href="https://marstangg.github.io/tributepage/"> Above and Beyond Tribute Page</a>
+This tribute page is the first project that i have embarked on since learning html/css. This is a simple tribute webpage developed and built from scratch by Marcus Tang. Website can be viewed here: https://marstangg.github.io/tributepage/
 
 ### <u>UX</u>
 This website  provides information about the band and their tour schedule for the month of July in 2019.
